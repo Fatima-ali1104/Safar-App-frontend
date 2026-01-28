@@ -1,7 +1,7 @@
 # 🌍 Safar App
 
 ## 📸 Screenshot / Logo
-![App Screenshot](../images/Screenshot%20(27).png)
+![App Screenshot](./images/Screenshot%20(27).png)
 
 ---
 
@@ -14,7 +14,7 @@ We built this project to practice full-stack development, focusing on authentica
 ---
 
 ## 🚀 Getting Started
-- **Planning :** ![ERD](../images/IMG_3924.jpg)
+- **Planning :** ![ERD](./images/IMG_3924.jpg)
 - **Back-End Repository:** [Back-End Repo](https://github.com/Fatima-ali1104/Safar-App-backend.git)  
 
 ---
