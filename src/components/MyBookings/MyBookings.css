@@ -1,0 +1,117 @@
+/* MyBookings.css */
+
+.booking-card {
+    background-color: #1e293b;
+    color: #ffffff;
+    width: 100%;
+    max-width: 600px; 
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    margin: 0 auto;
+}
+
+.booking-card h2 {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 1.6rem;
+}
+
+.booking-info-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.booking-card p {
+    margin: 0;
+    font-size: 1rem;
+    color: #cbd5e1;
+}
+
+.booking-card p strong {
+    display: block;
+    color: #ffffff;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.7;
+    margin-bottom: 2px;
+}
+
+.status-container {
+    margin-bottom: 20px;
+}
+
+.status-badge {
+    background-color: #475569;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.travelers-section {
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 20px;
+}
+
+.booking-card ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.booking-card li {
+    background: rgba(255, 255, 255, 0.03);
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+.my-bookings-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.my-bookings-container h1 {
+    text-align: center;
+    color: #0f172a;   
+    font-size: 2.5rem; 
+    margin-bottom: 40px;
+    width: 100%;      
+    font-weight: 800;
+    letter-spacing: -1px; 
+}
+
+.booking-card {
+    
+    background-color: #1e293b;
+    color: #ffffff;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 12px;
+    padding: 30px;
+    
+
+    margin-bottom: 30px; 
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}

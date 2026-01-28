@@ -1,0 +1,21 @@
+.trip-search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.trip-search-bar input {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 30px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.trip-search-bar input:focus {
+    border-color: #1a2a6c;
+    box-shadow: 0 0 8px rgba(26, 42, 108, 0.2);
+}

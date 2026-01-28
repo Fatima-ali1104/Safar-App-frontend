@@ -1,0 +1,149 @@
+
+.admin-dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #ffffff; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.admin-dashboard form {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 500px; 
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); 
+    display: flex;
+    flex-direction: column; 
+    gap: 12px;
+    margin-bottom: 60px;
+}
+
+.admin-dashboard form h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #0f172a;
+}
+
+.admin-dashboard form input {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f8fafc;
+    border: 1px solid #cbd5e1;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    color: #333;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+.admin-dashboard form input:focus {
+    border-color: #64748b;
+    background-color: #ffffff;
+}
+
+.admin-dashboard form button {
+    width: 100%;
+    background-color: #0f172a;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.admin-dashboard form button:hover {
+    background-color: #334155;
+}
+
+
+.admin-dashboard h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #0f172a;
+    font-size: 1.5rem;
+}
+
+.trips-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px; 
+    padding: 20px;
+    width: 100%;
+}
+
+.admin-dashboard .trip-card {
+    width: 240px; 
+    background-color: #1e293b;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.admin-dashboard .trip-card img {
+    width: 100%;
+    height: 140px; 
+    object-fit: cover;
+}
+
+.admin-dashboard .trip-card h3 {
+    color: #ffffff; 
+    font-size: 1rem;
+    margin: 10px 12px 5px 12px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.admin-dashboard .trip-card p {
+    color: #94a3b8; 
+    font-size: 0.8rem; 
+    margin: 3px 12px;
+    line-height: 1.4;
+}
+
+.admin-dashboard .trip-card-actions {
+    display: flex;
+    gap: 8px;
+    padding: 12px;
+    margin-top: auto; 
+}
+
+.admin-dashboard .trip-card-actions button {
+    flex: 1; 
+    padding: 6px 0;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.admin-dashboard .trip-card-actions button:nth-child(1) {
+    background-color: #ffffff;
+    color: #0f172a;
+    border: none;
+}
+
+.admin-dashboard .trip-card-actions button:nth-child(2) {
+    background-color: #475569; 
+    color: #ffffff;
+    border: none;
+}
+
+.admin-dashboard .trip-card-actions button:hover {
+    opacity: 0.8;
+}

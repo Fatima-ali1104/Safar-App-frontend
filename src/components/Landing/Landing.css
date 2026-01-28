@@ -1,0 +1,64 @@
+.landing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.landing-content {
+    text-align: center;
+    max-width: 600px;
+}
+
+.landing-content h1 {
+    font-size: 3rem;
+    color: #0f172a; 
+    margin-bottom: 20px;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.landing-content p {
+    font-size: 1.2rem;
+    color: #64748b;
+    margin-bottom: 40px;
+}
+
+.landing-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.btn-primary {
+    background-color: #0f172a;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #0f172a;
+    border: 2px solid #0f172a;
+    padding: 12px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #1e293b;
+    transform: translateY(-3px);
+}
+
+.btn-secondary:hover {
+    background-color: #f1f5f9;
+    transform: translateY(-3px);
+}

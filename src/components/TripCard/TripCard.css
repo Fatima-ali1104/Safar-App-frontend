@@ -1,0 +1,53 @@
+.trip-card {
+    width: 300px;
+    background: #1e293b; /* أزرق أفتح قليلاً من الخلفية */
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); /* ظل أعمق */
+    border: 1px solid rgba(255, 255, 255, 0.1); /* إطار نحيف جداً وشفاف */
+    transition: all 0.3s ease;
+}
+
+.trip-card img {
+  width: 100%;  /* تأخذ كامل عرض الـ 300px */
+  height: 200px;
+  object-fit: cover;
+}
+
+.trip-card:hover {
+    transform: translateY(-10px);
+    border-color: #0071a1; /* توهج أزرق خفيف عند التمرير */
+}
+
+/* نصوص البطاقة */
+.trip-card h2 {
+    color: #f8fafc;
+    padding: 0 15px;
+}
+
+.trip-card p {
+    color: #94a3b8; /* رمادي فاتح للنصوص الثانوية */
+    padding: 0 15px;
+}
+
+.trip-card a {
+    /* background: #38bdf8; أزرق سماوي مشرق */
+    display: block;
+    background-color: #ffffff;
+    color: #0f172a;
+    font-weight: bold;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    transition: opacity 0.2s;
+    border: 1px solid transparent;
+}
+
+.trip-card a:hover {
+    background-color: transparent;
+    color: #ffffff;            
+    border: 1px solid #ffffff;   
+    transform: translateY(-2px);  
+}
